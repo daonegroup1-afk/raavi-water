@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="RAAVI">
+  <rect width="32" height="32" rx="8" fill="#0A3D7A"/>
+  <path d="M16 3.2C16 3.2 7 15.2 7 21.2a9 9 0 0 0 18 0C25 15.2 16 3.2 16 3.2z" fill="#1E88E5"/>
+  <circle cx="16" cy="20.2" r="5.2" fill="#FFFFFF"/>
+  <circle cx="16" cy="20.2" r="1.5" fill="#0A3D7A"/>
+  <g stroke="#0A3D7A" stroke-width="1" stroke-linecap="round">
+    <line x1="16" y1="15.4" x2="16" y2="17.2"/>
+    <line x1="16" y1="23.2" x2="16" y2="25"/>
+    <line x1="11.2" y1="20.2" x2="13" y2="20.2"/>
+    <line x1="19" y1="20.2" x2="20.8" y2="20.2"/>
+    <line x1="12.6" y1="16.8" x2="13.9" y2="18.1"/>
+    <line x1="18.1" y1="22.3" x2="19.4" y2="23.6"/>
+    <line x1="19.4" y1="16.8" x2="18.1" y2="18.1"/>
+    <line x1="13.9" y1="22.3" x2="12.6" y2="23.6"/>
+  </g>
+</svg>
