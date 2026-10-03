@@ -1,6 +1,6 @@
 [build]
-  command = "mkdir -p dist/client && cp -a artifacts/raavi-netlify/. dist/client/"
-  publish = "dist/client"
+  command = "npm run build"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "22"
