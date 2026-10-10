@@ -410,24 +410,14 @@ function Careers() {
       place: "Hyderabad",
       points: ["Two-wheeler or four-wheeler", "Home and office jar delivery", "Local Hyderabad routes"],
     },
-    {
-      icon: Factory,
-      title: "Plant / Production Assistant",
-      place: "Begumpet plant",
-      points: ["Purification and filling", "Hygiene and quality checks", "Shift work"],
-    },
+ 
     {
       icon: Handshake,
       title: "Sales Executive",
       place: "Hyderabad",
       points: ["Homes, offices and shops", "New customer onboarding", "Follow-up on WhatsApp"],
     },
-    {
-      icon: Package,
-      title: "Warehouse Helper",
-      place: "Begumpet",
-      points: ["Loading and unloading", "Stock and packing", "Physical work"],
-    },
+    
   ];
   const [name, setName] = useState("");
   const [role, setRole] = useState(jobs[0].title);
@@ -442,10 +432,7 @@ function Careers() {
     <section id="careers" className="bg-white py-16">
       <div className="mx-auto max-w-6xl px-4">
         <div className="mb-10 text-center">
-          <p className="mb-2 inline-flex items-center gap-2 rounded-full bg-sky px-3 py-1 text-sm font-semibold text-ocean">
-            <Briefcase className="h-4 w-4" />
-            We are hiring
-          </p>
+          
           <h2 className="text-3xl font-bold text-fg">Careers at RAAVI</h2>
           <p className="mt-1 text-muted">Join our Hyderabad team. Apply on WhatsApp — no website login needed.</p>
         </div>
