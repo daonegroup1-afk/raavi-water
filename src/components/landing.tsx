@@ -5,7 +5,7 @@ import {
   Check,
   ChevronRight,
   Droplets,
-  Factory,
+  
   Facebook,
   Handshake,
   HeartPulse,
@@ -13,7 +13,7 @@ import {
   Instagram,
   MapPin,
   Menu,
-  Package,
+  
   Phone,
   ShieldCheck,
   Store,
@@ -403,32 +403,7 @@ function Services() {
 }
 
 function Careers() {
-  const jobs = [
-    {
-      icon: Truck,
-      title: "Delivery Executive",
-      place: "Hyderabad",
-      points: ["Two-wheeler or four-wheeler", "Home and office jar delivery", "Local Hyderabad routes"],
-    },
-    {
-      icon: Factory,
-      title: "Plant / Production Assistant",
-      place: "Begumpet plant",
-      points: ["Purification and filling", "Hygiene and quality checks", "Shift work"],
-    },
-    {
-      icon: Handshake,
-      title: "Sales Executive",
-      place: "Hyderabad",
-      points: ["Homes, offices and shops", "New customer onboarding", "Follow-up on WhatsApp"],
-    },
-    {
-      icon: Package,
-      title: "Warehouse Helper",
-      place: "Begumpet",
-      points: ["Loading and unloading", "Stock and packing", "Physical work"],
-    },
-  ];
+  
   const [name, setName] = useState("");
   const [role, setRole] = useState(jobs[0].title);
 
